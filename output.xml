@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.9 on darwin)" generated="20220727 16:03:22.986" rpa="false" schemaversion="3">
+<suite id="s1" name="dropDown" source="/Users/deepintent/PycharmProjects/RFTutorials/TestCase/dropDown.robot">
+<test id="s1-t1" name="DropDownTest" line="10">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220727 16:03:23.093" level="INFO">Opening browser 'chrome' to base url 'https://chercher.tech/practice/practice-dropdowns-selenium-webdriver'.</msg>
+<status status="PASS" starttime="20220727 16:03:23.093" endtime="20220727 16:04:06.141"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>first</arg>
+<arg>Google</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20220727 16:04:06.142" level="INFO">Selecting options from selection list 'first' by label Google.</msg>
+<status status="PASS" starttime="20220727 16:04:06.141" endtime="20220727 16:04:06.363"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220727 16:04:09.366" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220727 16:04:06.363" endtime="20220727 16:04:09.366"/>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<arg>first</arg>
+<arg>3</arg>
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<msg timestamp="20220727 16:04:09.369" level="INFO">Selecting options from selection list 'first' by index 3.</msg>
+<status status="PASS" starttime="20220727 16:04:09.367" endtime="20220727 16:04:09.726"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220727 16:04:12.727" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220727 16:04:09.726" endtime="20220727 16:04:12.727"/>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<arg>first</arg>
+<arg>Yahoo</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<msg timestamp="20220727 16:04:12.729" level="INFO">Selecting options from selection list 'first' by value Yahoo.</msg>
+<status status="PASS" starttime="20220727 16:04:12.728" endtime="20220727 16:04:12.780"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220727 16:04:15.783" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220727 16:04:12.781" endtime="20220727 16:04:15.784"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>second</arg>
+<arg>Pizza</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20220727 16:04:15.788" level="INFO">Selecting options from selection list 'second' by label Pizza.</msg>
+<status status="PASS" starttime="20220727 16:04:15.786" endtime="20220727 16:04:15.882"/>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<arg>second</arg>
+<arg>Burger</arg>
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20220727 16:04:15.883" level="INFO">Selecting options from selection list 'second' by label Burger.</msg>
+<status status="PASS" starttime="20220727 16:04:15.883" endtime="20220727 16:04:15.921"/>
+</kw>
+<kw name="Unselect From List By Label" library="SeleniumLibrary">
+<arg>second</arg>
+<arg>Pizza</arg>
+<doc>Unselects options from selection list ``locator`` by ``labels``.</doc>
+<msg timestamp="20220727 16:04:15.921" level="INFO">Un-selecting options from selection list 'second' by label Pizza.</msg>
+<status status="PASS" starttime="20220727 16:04:15.921" endtime="20220727 16:04:15.953"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220727 16:04:18.956" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20220727 16:04:15.953" endtime="20220727 16:04:18.957"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220727 16:04:18.959" endtime="20220727 16:04:19.030"/>
+</kw>
+<status status="PASS" starttime="20220727 16:03:23.092" endtime="20220727 16:04:19.030"/>
+</test>
+<status status="PASS" starttime="20220727 16:03:22.987" endtime="20220727 16:04:19.031"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="dropDown">dropDown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
